@@ -37,7 +37,7 @@
     <Filter Include="소스 파일\CoreFunction\Image">
       <UniqueIdentifier>{7809199d-46ab-4958-9975-68295fab64fc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\NewFilter1">
+    <Filter Include="소스 파일\Factory">
       <UniqueIdentifier>{126f691b-c3d1-480d-91cd-940969f7f444}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -79,7 +79,7 @@
       <Filter>소스 파일\CoreFunction\Image</Filter>
     </ClInclude>
     <ClInclude Include="Factory\Factory.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\Factory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +108,7 @@
       <Filter>소스 파일\CoreFunction\Image</Filter>
     </ClCompile>
     <ClCompile Include="Factory\Factory.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Factory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
