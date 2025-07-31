@@ -123,12 +123,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CoreFunction\HitBox.h" />
+    <ClInclude Include="CoreFunction\Image.h" />
+    <ClInclude Include="CoreFunction\IntervalTimer.h" />
+    <ClInclude Include="CoreFunction\PictureBox.h" />
+    <ClInclude Include="CoreFunction\Point.h" />
+    <ClInclude Include="CoreFunction\SingletonT.h" />
+    <ClInclude Include="CoreFunction\Size.h" />
+    <ClInclude Include="Factory\Factory.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Information\Constants.h" />
     <ClInclude Include="PlantsVsZombies_Ver2.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CoreFunction\HitBox.cpp" />
+    <ClCompile Include="CoreFunction\Image.cpp" />
+    <ClCompile Include="CoreFunction\IntervalTimer.cpp" />
+    <ClCompile Include="CoreFunction\PictureBox.cpp" />
+    <ClCompile Include="CoreFunction\Point.cpp" />
+    <ClCompile Include="CoreFunction\SingletonT.cpp" />
+    <ClCompile Include="CoreFunction\Size.cpp" />
+    <ClCompile Include="Factory\Factory.cpp" />
     <ClCompile Include="PlantsVsZombies_Ver2.cpp" />
   </ItemGroup>
   <ItemGroup>

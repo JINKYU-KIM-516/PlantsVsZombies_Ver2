@@ -13,6 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\CoreFunction">
+      <UniqueIdentifier>{dd9ad20e-84e9-41b3-8a79-1a77654aa830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CoreFunction\HitBox">
+      <UniqueIdentifier>{ed65904a-f6fa-423f-9bb1-f32e28d88b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CoreFunction\IntervalTimer">
+      <UniqueIdentifier>{f4228b71-4b3a-43d1-b14d-0c35c82ae82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CoreFunction\PictureBox">
+      <UniqueIdentifier>{461ac3dc-36aa-4723-b1c9-655a2c8a31e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CoreFunction\Point">
+      <UniqueIdentifier>{eff3aa35-2f4b-4393-bad1-e04630c5885d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CoreFunction\SingleTon">
+      <UniqueIdentifier>{f93e5f54-fdde-4763-94c9-fef2fa793a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CoreFunction\Size">
+      <UniqueIdentifier>{bbdfabd3-47b7-4cb2-a81f-03ea430e2008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CoreFunction\Image">
+      <UniqueIdentifier>{7809199d-46ab-4958-9975-68295fab64fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NewFilter1">
+      <UniqueIdentifier>{126f691b-c3d1-480d-91cd-940969f7f444}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -27,9 +54,60 @@
     <ClInclude Include="PlantsVsZombies_Ver2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="CoreFunction\HitBox.h">
+      <Filter>소스 파일\CoreFunction\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreFunction\IntervalTimer.h">
+      <Filter>소스 파일\CoreFunction\IntervalTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreFunction\PictureBox.h">
+      <Filter>소스 파일\CoreFunction\PictureBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreFunction\Point.h">
+      <Filter>소스 파일\CoreFunction\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreFunction\SingletonT.h">
+      <Filter>소스 파일\CoreFunction\SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="Information\Constants.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreFunction\Size.h">
+      <Filter>소스 파일\CoreFunction\Size</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreFunction\Image.h">
+      <Filter>소스 파일\CoreFunction\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\Factory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PlantsVsZombies_Ver2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction\HitBox.cpp">
+      <Filter>소스 파일\CoreFunction\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction\IntervalTimer.cpp">
+      <Filter>소스 파일\CoreFunction\IntervalTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction\PictureBox.cpp">
+      <Filter>소스 파일\CoreFunction\PictureBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction\Point.cpp">
+      <Filter>소스 파일\CoreFunction\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction\SingletonT.cpp">
+      <Filter>소스 파일\CoreFunction\SingleTon</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction\Size.cpp">
+      <Filter>소스 파일\CoreFunction\Size</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction\Image.cpp">
+      <Filter>소스 파일\CoreFunction\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory\Factory.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
